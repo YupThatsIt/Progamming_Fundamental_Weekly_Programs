@@ -5,16 +5,15 @@ int Fibonacci(int n);
 
 int main()
 {
-    int sum, n, i = 1;
+    int sum, n;
 
-    while(1){
+    for(int i = 1;; i++){
         n = Fibonacci(i);
         if(n > 4000000) break;
 
         if (n % 2 == 0){
             sum += n;
         }
-        i++;
     }
     
     printf("%d", sum);
