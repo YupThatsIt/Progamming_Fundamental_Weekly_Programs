@@ -1,3 +1,4 @@
+//Using array
 #include <stdio.h>
 
 int main()
