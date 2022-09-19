@@ -30,7 +30,7 @@ int main()
             rowsum += num[i][j];
             colsum += num[j][i];
         }
-        if (rowsum != colsum || colsum != dsum1){
+        if (rowsum != dsum1 || colsum != dsum1){
             printf("NO");
             return 0;
         }
