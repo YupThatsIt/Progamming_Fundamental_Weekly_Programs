@@ -36,5 +36,6 @@ int main()
         }
     }
     printf("YES");
+    free(num); free(sum);
     return 0;
 }
